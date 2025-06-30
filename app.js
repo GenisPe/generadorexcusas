@@ -31,6 +31,6 @@ window.onload = function() {
   let parte2 = Math.floor(Math.random()*verbo.length)
   let parte3 = Math.floor(Math.random()*cuando.length)
   let parte4 = Math.floor(Math.random()*donde.length)
-  document.querySelector("#excusas").innerHTML = sustantivo[parte1] + verbo[parte2] + cuando[parte3] + donde[parte4];
+  document.querySelector(".excusas").innerHTML = sustantivo[parte1] + verbo[parte2] + cuando[parte3] + donde[parte4];
  
 }
